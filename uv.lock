@@ -299,7 +299,7 @@ wheels = [
 [[package]]
 name = "reflexion-agent"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "annotated-types" },
     { name = "anyio" },
